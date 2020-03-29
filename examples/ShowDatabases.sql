@@ -23,7 +23,7 @@
 
 /*
 c:\> psql -Version
-psql (PostgreSQL) 9.5.15
+psql (PostgreSQL) 10.10
 %
 
 

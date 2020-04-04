@@ -1,0 +1,17 @@
+• cross join
+if applied to 2 tables, it combines 
+the first row of table 1 with all rows of table 2, 
+the second row of table 1 with all rows of table 2, 
+....
+
+• inner join 
+inner join combine corresponding rows in two tables given certain conditions.
+
+• natural join
+natural join combine rows from two tables when columns of common attributes have same values.
+
+Three cases for natural join:
+(1) in case of no common attributes between table 1 and table 2, naturaljoin will do cross join.
+(2) in case of common attributes but the common attrbiutes do not have the same values, 
+naturaljoin will do nothing.
+(3) in case of common attributes with same values, natural join will return the common values. 
